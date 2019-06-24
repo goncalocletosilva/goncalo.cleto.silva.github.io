@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Shibas são vida
+title: Digital Design
 author: Gonçalo Silva
 featured: true
 color: '#4286f4'

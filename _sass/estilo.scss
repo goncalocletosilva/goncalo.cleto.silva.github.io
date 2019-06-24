@@ -1,31 +1,7 @@
-$mytype: 'Helvetica';
-$brandcolor: #ff0c00;
-
-
-body {
-    font-family: $mytype;
-}
-
-a, h2 {
-    color:$brandcolor;  
-}
-
-.postlist a {
-    list-style: none;
-    a {
-        color: green;   
-    }
-}
-
-
-
-
-
-
 body {
     font-family: Arial;
     margin: 0px;
-    background-color: #EEECEA;   
+    background-color: black;   
 }
 
 /* header starts here */
