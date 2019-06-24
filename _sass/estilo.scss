@@ -1,0 +1,428 @@
+$mytype: 'Helvetica';
+$brandcolor: #ff0c00;
+
+
+body {
+    font-family: $mytype;
+}
+
+a, h2 {
+    color:$brandcolor;  
+}
+
+.postlist a {
+    list-style: none;
+    a {
+        color: green;   
+    }
+}
+
+
+
+
+
+
+body {
+    font-family: Arial;
+    margin: 0px;
+    background-color: #EEECEA;   
+}
+
+/* header starts here */
+
+.container {
+	margin-left: auto;
+	margin-right: auto;
+	width: 100vw;
+    position: fixed;
+}
+
+#logo{
+    font-family: SpaceGrotesk;
+    font-size: 30px;
+    color: white;
+    width: 100px;
+    margin: 0px;
+    text-align: left;
+    float: left;
+    padding-left: 25px;
+    padding-top: 6px;
+}
+
+#primary {
+    float: right;
+    width: 100vw;
+    height: 50px;
+    background-color: black;
+    position: relative;
+}
+
+#primary ol {
+    font-size: 20px; 
+	list-style: none;
+    position: absolute;
+    right: 25px;
+    margin:0;
+    padding-top: 15px;
+}
+
+#primary ol li {
+	float: left;
+    margin-right: 20px;
+}
+
+#projects {
+    width: 100vw;
+    height: 40px;
+    background-color: #D9D9D9;
+    box-sizing: border-box;
+    text-align: center;
+    border-bottom: 0.5px solid black;
+}
+
+#projects * {
+    display: inline-block;
+	font-size: 17px;
+    box-sizing: border-box;
+    margin: 0; 
+    padding-left: 0px;
+    padding-top: 5px;
+    color: black;
+}
+
+#projects ol {
+	list-style: none;
+}
+
+#projects ol li {
+	float: left;
+}
+
+#projects ol li {
+	margin-right: 30px;
+    padding: 0;
+}
+
+#primary a, #projects a {
+    text-align: center;
+    align-content: center;
+    text-decoration: none;  
+}
+
+#primary a{
+    color: white; 
+}
+
+#primary a:hover{
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+#projects a {
+    color: black;  
+}
+
+#projects a:hover {
+    text-decoration: underline;
+}
+
+#primary, #projects {
+    overflow: hidden;  
+}
+
+/* header ends here */
+
+.intro {
+    background-color: white;
+    width: 100vw;
+    height: auto;
+    float: left;
+    color: black;
+    text-align: left;
+    padding: 30px;
+    padding-right: 50%;
+    padding-bottom: 60px;
+    font-size: 25px;
+    box-sizing: border-box;
+    border-bottom: 0.5px solid black;
+    line-height: auto;
+    margin-top: 70px;
+}
+
+#hello {
+    font-family: SpaceGrotesk;
+    padding-bottom: 10px;
+}
+
+.left_side, .right_side {
+    width: 50%;
+    height: 800px;
+    float: left;
+}
+
+#titulo_artigo {
+    font-family: SpaceGrotesk-Bold;
+    font-size: 35px;
+    font-weight: bold;
+    box-sizing: border-box;
+    margin: 0;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    
+}
+
+.tipo{
+    font-size: 20px;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    padding-bottom: 10px;    
+}
+
+article {
+    height: 800px;
+    font-size: 22px;
+    text-align: left;
+    background-color: #EEECEA;
+    box-sizing: border-box;
+    padding-left: 25px;
+    padding-right: 80px;
+}
+
+/* Crise */
+
+#back_crise {
+    background-color: #EEECEA;
+}
+
+.img_crise {
+    max-width: 90%;
+    max-height: 100%;
+    margin-top: 0px;
+    text-align: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/* Cosmos */
+
+#back_cosmos {
+    background-color: black;
+}
+
+#cosmos {
+    background-color: black;
+    color: white;   
+}
+
+/* Respack */
+
+#respack {
+    background-color: #EEECEA;
+    color: black;   
+}
+
+#back_respack {
+    background-color: #EEECEA;    
+}
+
+.img_respack {
+    max-width: 90%;
+    max-height: 50%;
+    margin-top: 0px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/* Buddy */
+
+#buddy {
+    background-color: #DF4C46;
+    color: black; 
+}
+
+#back_buddy {
+    background-color: #DF4C46;
+}
+
+.img_buddy {
+    max-width: 90%;
+    max-height: 50%;
+    margin-top: 0px;
+    text-align: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/* Blue Roses */
+
+#blueroses {
+    background-color: black;
+    color: white; 
+}
+
+#back_blue {
+  background-color: black;  
+}
+
+.img_blue {
+    max-width: 90%;
+    max-height: 50%;
+    margin-top: 0px;
+    text-align: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/* Who dat? */
+
+#whoami {
+    color: black; 
+    height: 800px;
+    font-size: 18px;
+    line-height: 1.4;
+    text-align: left;
+    box-sizing: border-box;
+    padding-left: 25px;
+    padding-right: 100px;
+    padding-top: 25px;
+    padding-bottom: 60px;
+    float:left;
+}
+
+#who {
+    font-family: SpaceGrotesk;
+    font-size: 30px;    
+}
+
+.right_side_who {
+    box-sizing: border-box;
+    width: 50%;
+    height: 800px;
+    float: left;
+    color: black;
+    padding-top: 60px;
+    padding-left: 20px;
+}
+
+.right_side_who li {
+   list-style: none; 
+}
+
+h3 {
+    font-family: SpaceGrotesk;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* Media Query */ 
+
+
+@media screen and (max-width: 700px) {
+    
+    article {
+        font-size: 16px;
+    }
+    
+    .left_side{
+        width: 100vw;
+        height: 550px;
+    }
+    
+    #left_who {
+        float: none;
+    }
+    
+    .right_side {
+        width: 100vw;
+        height: 100%;
+        clear: left;
+    }
+    
+    .intro {
+        width: 100vw;
+        height: 600px;
+        padding-right: 10%;
+        padding-top: 70px;
+    }
+    
+    .intro p {
+        font-size: 17px;
+    }
+
+    #hello {
+        padding-bottom: 10px;
+        font-size: 30px;
+    } 
+
+    .img_crise, .img_respack, 
+    .img_buddy, .img_blue {
+        display:block;
+        margin: auto;
+        margin-bottom: 30px;        
+    }
+    
+    #whoami { 
+        height: 750px;
+        font-size: 15px;
+        line-height: auto;
+        padding-right: 30px;
+        padding-top: 5px;
+    }
+
+    #who {
+        font-size: 30px;    
+    }
+
+    .right_side_who {
+        width: 100vw;
+        font-size: 16px;
+        padding-left: 0px;
+        padding-right: 10px;
+        padding-top: 10px;
+        color: black;
+        height:100%;
+    }
+
+    #logo{
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        padding-left: auto;
+        padding-right: auto;
+        padding-top: 0px;
+        text-align: center;
+    }
+
+    #primary {
+        height: 90px;
+        display: inline-block;
+    }
+
+    #primary ol {
+        margin-top: 40px;
+        padding-left: 10px;
+        padding: auto;
+    }
+
+    #projects {   
+        display: none;
+    }
+}
+
+@media screen and (max-width: 860px) {
+    
+    article {
+        font-size: 15px;
+    }    
+}
+
+/* font */
+
+@font-face
+{
+font-family: SpaceGrotesk;
+src: url('SpaceGrotesk-Regular.otf'),
+     url('SpaceGrotesk-Bold.otf'); 
+}
