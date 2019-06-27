@@ -1,9 +1,8 @@
-title: Blogg
+title: Gonçalo Portfolio
 author: Gonçalo Silva
 email: goncalo.cleto.silva@gmail.com
 description: > # this means to ignore newlines until "exclude"
-  This website is great. You might not understand why but it's about dogs and
-  that should be enough. Thanks. 
+  This website is great.
 
 exclude:
   - Gemfile
@@ -17,7 +16,3 @@ exclude:
 date_format: "%b %-d, %Y"
 
 # generate social links in footer
-social_links:
-  twitter: danielfdsilva
-  github:  danielfdsilva
-  # facebook:

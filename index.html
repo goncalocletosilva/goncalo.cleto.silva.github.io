@@ -16,84 +16,54 @@ layout: home
 	<title>Gonçalo's Portfolio</title>
 	<link rel="stylesheet" type="text/css" href="index.css">
 </head>
-<body>
-
-    
+    <body>
         <section class="intro">
-            <h1 id="hello">HELLO - I'M GONÇALO,<br>A COMMUNICATION DESIGNER<br>BASED IN LISBON</h1>
+            <h1 id="hello">HELLO - I'M GONÇALO,<br>A DIGITAL EXPERIENCE DESIGNER<br>BASED IN LISBON</h1>
             
             <p>Over the years I became someone very interested in the power and voice of graphic design. While so, I made: visual identities, websites, publications, installations, playlists, met awesome people and got incredibly addicted to sneakers. 
             Currently studying at a Digital Experience Design course, I’m always looking for new projects that can challenge me to become a better designer and person.</p>
             
+             <div id="container">
+<div id="circle">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="300px" height="300px" viewBox="0 0 300 300" enable-background="new 0 0 300 300" xml:space="preserve">
+    <defs>
+        <path id="circlePath" d="M 150, 150 m -60, 0 a 60,60 0 0,1 120,0 a 60,60 0 0,1 -120,0 "/>
+    </defs>
+    <circle cx="150" cy="100" r="75" fill="none"/>
+    <g>
+        <use xlink:href="#circlePath" fill="none"/>
+        <text fill="#000">
+            <textPath xlink:href="#circlePath">Text rotating around a circle path with SVG!</textPath>
+        </text>
+    </g>
+</svg>
+</div>
+</div>
+            
         </section> 
+    
+        <nav id="projects"> 
+            <ol>
+				<li><a href="#titulo_artigo">DIGITAL DESIGN</a></li>
+				<li><a href="#cosmos">GRAPHIC DESIGN</a></li>
+			</ol>
+        </nav>
         
 <!--Here Starts Grid-->
         
-            <div class="container-work">
-                <div class="item">Trabalho 1</div>
-                <div class="item">Trabalho 2</div>
-                <div class="item">Trabalho 3</div>
-                <div class="item">Trabalho 4</div>
-                <div class="item">Trabalho 5</div>
-                <div class="item">Trabalho 6</div>
-            </div>
-        
-<!--Here Starts ABOUT ME (WHO DAT?)
-
-        <section id="left_who" class="left_side">
-            <article id="whoami"> 
-                <h1 id="who">WHO IS GONÇALO?</h1>
-                
-                <p>If you want to hire me you should know that I’m obsessed with music, making playlists and analog photography. I like to think about things, to conceptualize and have ideas, the concept behind what I do is part of my identity as a person and also as a designer.</p> 
-            
-                <p>I’ve studied Communication Design at the Faculty of Fine Arts in Lisbon, where I developed my love for Graphic Design and understood the potencial behind Digital Design. I studied at Politecnico di Milano in Milan-Italy for six months - where I also studied Communication Design and was part of an exhibition event at Base Milano - as part of the erasmus programme. I ended up at an ongoing Post-Graduation course in Digital Experience Design again at the Faculty of Fine Arts in Lisbon.</p> 
-                    
-                <p>I’ve mostly done identities, editorial projects and exhibitions but I’m currently exploring the world of UX/UI Design, and getting more interested in the role of User Experience Design in order to improve the performance of online platforms. </p> 
-                
-                <p>On a regular free day, find me around cheap restaurants and beautiful viewpoints of Lisbon, or drinking at Bairro Alto every once in a while.</p>
-                
-            </article>
-        </section>
-        
-        <section class="right_side_who">
-			<ol title="Skills/Tools">
-                <h3>Skills/Tools</h3>
-                    <li>High Knowledge of Photoshop, Illustrator, Indesign</li>
-                    <li>Knowledge of Premiere and After Effects</li>
-                    <li>Knowledge of HTML and CSS languages</li>
-                    <li>Photography</li>
-                    <li>Sketch and Figma (UI Design)</li>
-                    <li>InVision</li>
-                    <li>Video</li>
-            </ol>	
-            
-            <ol title="Interests">
-                <h3>Interests</h3>
-                    <li>Graphic Design</li>
-                    <li>Digital Design (UX/UI)</li>
-                    <li>User Experience Design </li>
-                    <li>Editorial Design</li>
-                    <li>Exhibition Design</li>
-                    <li>Photography</li>
-                    <li>Art Direction</li>
-                    <li>Curating</li>
-            </ol>
-			
-            <ol title="Want to work with">
-                <h3>I want to work with/on</h3>
-                    <li>Fashion Store/Brand</li>
-                    <li>Graphic Design Studio</li>
-                    <li>Online or Print Newspaper</li>
-                    <li>Music Label</li>
-                    <li>User Experience department</li>
-                    <li>Artists </li>
-                    <li>Cultural Associations (ex: Theatre, Museum…)</li>
-                    <li>Football Club</li>
-                    <li>Magazine</li>
-                    <li>Ceramics</li>
-                    <li>Botanical store</li>
-            </ol>
-        </section> -->
+    <section>
+            {%- if site.posts.size > 0 -%}
+               <ul class="container-work">
+               {% for post in site.posts %}
+                 <a class="post-link" href="{{ post.url | relative_url }}"><li class="item">
+                   <h3>
+                       {{ post.title | escape }}
+                   </h3>
+                 </li></a>
+               {% endfor %}
+               </ul>
+             {%- endif -%}
+       </section>
         
         
 </body>
