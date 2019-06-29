@@ -18,28 +18,29 @@ layout: home
 </head>
     <body>
         <section class="intro">
+            <section class="intro-text">
             <h1 id="hello">HELLO - I'M GONÇALO,<br>A DIGITAL EXPERIENCE DESIGNER<br>BASED IN LISBON</h1>
             
             <p>Over the years I became someone very interested in the power and voice of graphic design. While so, I made: visual identities, websites, publications, installations, playlists, met awesome people and got incredibly addicted to sneakers. 
             Currently studying at a Digital Experience Design course, I’m always looking for new projects that can challenge me to become a better designer and person.</p>
+            </section>
             
-             <div id="container">
-<div id="circle">
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="300px" height="300px" viewBox="0 0 300 300" enable-background="new 0 0 300 300" xml:space="preserve">
-    <defs>
-        <path id="circlePath" d="M 150, 150 m -60, 0 a 60,60 0 0,1 120,0 a 60,60 0 0,1 -120,0 "/>
-    </defs>
-    <circle cx="150" cy="100" r="75" fill="none"/>
-    <g>
-        <use xlink:href="#circlePath" fill="none"/>
-        <text fill="#000">
-            <textPath xlink:href="#circlePath">Text rotating around a circle path with SVG!</textPath>
-        </text>
-    </g>
-</svg>
-</div>
-</div>
-            
+           <section class="intro-circle">
+                <div id="container">
+                    <div id="circle">
+                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="400px" height="400px" viewBox="0 0 300 300" enable-background="new 0 0 300 300" xml:space="preserve">
+                        <defs>
+                        <path id="circlePath" d="M 150, 150 m -60, 0 a 60,60 0 0,1 120,0 a 60,60 0 0,1 -120,0 "/>
+                        </defs>
+                        <g>
+                            <use xlink:href="#circlePath" fill="none"/>
+                            <text fill="#ffffff">
+                            <textPath xlink:href="#circlePath">Feel free to contact me! Let's drink a beer.</textPath>
+                            </text>
+                        </g>
+                        </svg>
+                     </div>
+                </div>
         </section> 
     
         <nav id="projects"> 
@@ -59,6 +60,7 @@ layout: home
                    <h3>
                        {{ post.title | escape }}
                    </h3>
+                     <img src="{{ post.image }}">
                  </li></a>
                {% endfor %}
                </ul>
