@@ -287,12 +287,19 @@ main {
     height: 100%;
     text-align: center;
     display: none;
+    color: white;
+    text-decoration-color: white;
+    margin:0;
 }
 
 .flex-title:a {
     color: white;
     text-decoration: none;
-    
+}
+
+.flex-title:active {
+    text-decoration: none;
+    color: white;
 }
 
 .flex-image {
@@ -305,9 +312,15 @@ main {
 .item:hover .flex-image {
     opacity: 0;
 }
+
 .item:hover .flex-title {
     display: flex;
+    flex-wrap: wrap;
+    text-decoration: none;
+    text-decoration-color: white;
+    /*display: none;*/
 }
+
 
 
 /* Who dat? */
@@ -383,51 +396,52 @@ article {
 /* Posts */
 
 .post-content {
-    padding-top: 130px;
-    color: white; 
-}
-
-.post-wrapper {
-    background-color: black;
-    color: white;
-    
+    display:flex;
+    flex-wrap: wrap;
 }
 
 .post-entry {
     background-color: black;
     color: white;
-    padding-left: 45px;
-    padding-right: 80px;
-    
+    padding: 44px;
+    display:flex;
+    flex-wrap: wrap;
 }
 
 .post-header {
-    color: white;
-    
-    
+    color: white;   
 }
 
 .post-title {
     color: white;
-    font-size: 50px;
-    
+    font-size: 50px;    
 }
 
 .post-content-text {
- 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 p {
+    font-family: Space-Grotesk-Regular;
     margin-top: 60px;
     margin-bottom: 60px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
-
-
-
-
-
-
+.img-responsive {
+    width: 500px;
+    height: auto;
+    padding: 10px;
+}
 
 
 
@@ -493,13 +507,6 @@ p {
         padding-bottom: 10px;
         font-size: 30px;
     } 
-
-    .img_crise, .img_respack, 
-    .img_buddy, .img_blue {
-        display:block;
-        margin: auto;
-        margin-bottom: 30px;        
-    }
     
     #whoami { 
         height: 750px;

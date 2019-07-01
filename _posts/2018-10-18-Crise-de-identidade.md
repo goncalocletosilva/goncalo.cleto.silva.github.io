@@ -7,7 +7,15 @@ color: '#4286f4'
 image: /assets/images/crise.png
 ---
 
-Shiba inu (em japonês: 柴犬) é uma raça de cães oriunda do Japão. Apesar da raça ser rara ela é muito popular em seu país de origem. Além de bastante semelhante ao Akita inu, hoje sabe-se que o Shiba Inu é um dos ancestrais do Akita. De origem antiga, arqueólogos encontraram no Japão ossadas de cães com as mesmas características dos Shibas que foram datadas como tendo ao menos 5.000 anos, os Shibas são tidos como um dos cães mais antigos do mundo. Seu nome vem do dialeto da região de Nagano, que significa "pequeno cão". Usado hoje como cão de companhia, é ainda considerado eficiente na caça a pequenos animais. Entre suas outras qualidades bem vistas pelos japoneses, estão seu tamanho (cujo limite é de 41,5 cm de altura) e sua independência. O Shiba no Japão é tido como um cão que traz sorte ao seu dono. Ele também é o cão símbolo da Família Imperial Japonesa.
+Este projeto consistia em criar uma Exposição que mostrasse os projetos dos alunos finalistas de Design de Comunicação da Faculdade de Belas-Artes da ULisboa ‘18, e complementá-la com um catálogo, um website e uma programação cultural e com conversas em torno do tema da exposição. Surgiu assim a 8ª Exposição de Design de Comunicação da FBAUL - Crise de Identidade, patente nas Galerias das Belas-Artes entre 2 e 14 de Outubro de 2018.  
+Crise de Identidade propunha-se a retratar a juventude dos nossos dias como uma geração-baloiço, à procura de equilíbrio, num tempo plural de opostos e de escolhas. O conceito da exposição era precisamente demonstrar os contraste que definem os jovens da atualidade através de um retrato de tempo e espaço dado pelos projetos.
+Este projeto foi realizado em conjunto com Beatriz Antunes, Catarina Fazenda,
+Bruno santos, Margarida Silva,
+Paloma Moniz e Ricardo Gonçalves.
 
-![image](http://cdn.akc.org/content/hero/Smiling_Shibas_Hero.jpg){:class="img-responsive"}
-![image](http://cdn.akc.org/content/hero/Smiling_Shibas_Hero.jpg){:class="img-responsive"}
+![crise1](/assets/images/crise1.png){:class="img-responsive"}
+![crise1](/assets/images/crise1.png){:class="img-responsive"}
+![crise1](/assets/images/crise1.png){:class="img-responsive"}
+![crise1](/assets/images/crise1.png){:class="img-responsive"}
+![crise1](/assets/images/crise1.png){:class="img-responsive"}
+![crise1](/assets/images/crise1.png){:class="img-responsive"}
