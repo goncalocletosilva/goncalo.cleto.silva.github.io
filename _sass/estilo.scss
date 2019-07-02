@@ -309,7 +309,7 @@ main {
     flex-wrap: wrap;
     text-decoration: none;
     text-decoration-color: white;
-    /*display: none;*/
+    display: none;
 }
 
 /* Who dat? */
@@ -430,30 +430,25 @@ p {
 }
 
 
-
-
-
-
-
-/* ______________________________________________Media Query_________________________*/
+/* ______________________Media Query_________________________*/
 
 
 @media screen and (max-width: 700px) {
     
-    /* Header */
+/* Header */
 
     #primary {
         height: 50px;
         display: inline-block;
     }
     
-    /* Filters */
+/* Filters */
 
     #projects {   
         display: none;
     }
     
-    /* Intro starts */
+/* Intro starts */
     
     .intro {
         width: 100vw;
@@ -475,21 +470,21 @@ p {
         margin-top: 20px;
         margin-bottom: 20px;
     } 
-    
-      /* Circle */
+
+/* Circle */
     
     #circle, #container, #circle svg, .intro-circle {
         display: none;
     }    
     
-    /* Flex Homepage */
+/* Flex Homepage */
     
     .container-work {
         padding: 10px;
         margin: 0;
     }
     
-    /* Who dat? */
+/* Who dat? */
     
     article {
         font-size: 30px;
@@ -548,25 +543,111 @@ p {
     }
 }
 
-
 @media screen and (max-width: 380px) {
     
+    /* Header */
+    
+     #logo{
+        width: auto;
+        margin: 0px;
+        padding: 10px;
+        text-align: center;
+    }
 
-    .container-work: {
-        max-width: 90%;
-        height: auto;
-        padding: 0;
+    #primary {
+        height: 60px;
+        text-align: center;
+        justify-content: center;
+    }
+
+    #primary ol {
+        padding: 10px;
+        padding-top: 14px;
+        right: 0;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    #primary ol li {
+        margin-right: 12px;
+    }
+    
+    /* Intro */
+    
+    .intro {
+        margin-top: 50px;
+    }
+    
+    .intro-text {
+       width: 100vw;
+       padding-top: 10px;
+    }
+    
+    .intro-text p {
+       padding: 18px;
+       margin: 0;
+    }
+    
+    #hello {
+        padding: 20px;
         margin: 0;
     }
     
-    .item {
-        max-width: 90%;
-        height: 100px;
+    /* Flex Homepage */
+    
+    .container-work {
+        width: 100vw;
+        height: 100vh;
+        padding: 0;
     }
+
+    .item {
+        width: 95vw;
+        height: auto;
+        margin-left: 0;
+        padding: 10;
+    }
+
+    .flex-title, .flex-title:a  {
+            display: none;
+        }
+
+    .flex-image {
+        width: 100%;
+        height: 100%;
+    } 
     
+    /* Posts */
     
-    
-    
+    .post-title {
+        padding: 20px;
+        margin-top: 60px;
+        margin-bottom: 10px;   
+    }
+
+    .post-entry {
+        width: 100vw;
+        height: 100vh;
+        padding: 0;
+    }
+
+    .post-content-text {
+        width: 100%;
+    }
+
+    p {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 15px;
+        padding:20px;
+    }
+
+    .img-responsive {
+        width: 100%;
+        height: 100%;
+        padding: 10px;
+    }
+
 }
 
 
