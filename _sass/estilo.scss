@@ -4,11 +4,16 @@ src: url('SpaceGrotesk-Regular.otf'),
      url('SpaceGrotesk-SemiBold.otf'); 
 }
 
+/* Variables */
+
+$back-color: black;
+$text-color: white;
+
 
 body {
     font-family: SpaceGrotesk-Regular;
     margin: 0px;
-    background-color: black;   
+    background-color: $back-color;
 }
 
 main {
@@ -39,33 +44,30 @@ main {
 }
 
 #primary {
-    float: right;
-    width: 100vw;
-    height: 50px;
-    background-color: lightgrey;
-    position: relative;
-}
-
-#primary ol {
-    font-size: 22px; 
-	list-style: none;
+  float: right;
+  width: 100vw;
+  height: 50px;
+  background-color: lightgrey;
+  position: relative;
+  ol {
+    font-size: 22px;
+    list-style: none;
     position: absolute;
     right: 25px;
-    margin:0;
+    margin: 0;
     padding-top: 12px;
+  }
+    li {
+      float: left;
+      margin-right: 20px;
+    }
 }
 
-#primary ol li {
-	float: left;
-    margin-right: 20px;
-}
-
-
-/* Intro starts here */
+/* Intro starts here */ 
 
 .intro {
-    background-color: black;
-    color: white;
+    background-color: $back-color;
+    color: $text-color;
     width: 100vw;
     float: right;
     text-align: left;
@@ -73,7 +75,7 @@ main {
     margin-top: 65px;
     font-size: 27px;
     box-sizing: border-box;
-    border-bottom: 0.5px solid black;
+    border-bottom: 0.5px solid $back-color;
     line-height: auto;
     justify-content: center;
 }
@@ -128,7 +130,7 @@ main {
     width: 500px; 
     padding-bottom: 500px; 
     overflow: hidden; 
-    color: white; 
+    color: $text-color; 
 }
 
 #circle text { 
@@ -189,34 +191,31 @@ main {
 /* Filters start here */
 
 #projects {
-    width: 100vw;
-    height: 50px;
-    background-color: black;
-    box-sizing: border-box;
-    text-align: center;
-    border-bottom: 0.5px solid black;
-    margin-top: 10px;
-}
-
-#projects * {
+  width: 100vw;
+  height: 50px;
+  background-color: black;
+  box-sizing: border-box;
+  text-align: center;
+  border-bottom: 0.5px solid black;
+  margin-top: 10px;
+  * {
     display: inline-block;
-	font-size: 25px;
+    font-size: 25px;
     box-sizing: border-box;
-    margin: 0; 
+    margin: 0;
     padding-left: 0px;
     padding-top: 5px;
     color: white;
-}
-
-#projects ol {
-	list-style: none;
-    margin:0;
-}
-
-#projects ol li {
-	float: left;
-    margin-right: 30px;
-    padding: 0;
+  }
+  ol {
+    list-style: none;
+    margin: 0;
+  }
+    li {
+      float: left;
+      margin-right: 30px;
+      padding: 0;
+  }     
 }
 
 #primary, #projects {
@@ -229,21 +228,19 @@ main {
     text-decoration: none;  
 }
 
-#primary a{
-    color: white; 
-}
-
-#primary a:hover{
+#primary a {
+  color: white;
+  &:hover {
     text-decoration: underline;
     text-decoration-color: white;
+  }
 }
 
 #projects a {
-    color: white;  
-}
-
-#projects a:hover {
+  color: white;
+  &:hover {
     text-decoration: underline;
+  }
 }
 
 /* Bloco flex Homepage */
@@ -256,7 +253,7 @@ main {
     flex-wrap: wrap;
     height: 100vh;
     padding: 40px;
-    background-color: black;
+    background-color: $back-color;
     list-style: none;
 }
 
@@ -265,7 +262,7 @@ main {
     height: 390px;
     margin-left: 30px;
     margin-bottom: 25px;
-    background-color: black;
+    background-color: $back-color;
     overflow: hidden;
     justify-content: center;
     align-content: center;
@@ -274,24 +271,22 @@ main {
 }
 
 .flex-title {
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    display: none;
-    color: white;
-    text-decoration-color: white;
-    margin:0;
-    display: none;
-}
-
-.flex-title:a {
-    color: white;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  display: none;
+  color: $text-color;
+  text-decoration-color: $text-color;
+  margin: 0;
+  display: none;
+  &:a {
+    color: $text-color;
     text-decoration: none;
-}
-
-.flex-title:active {
+  }
+  &:active {
     text-decoration: none;
-    color: white;
+    color: $text-color;
+  }    
 }
 
 .flex-image {
@@ -301,22 +296,23 @@ main {
     align-content: center;
 }
 
-.item:hover .flex-image {
+.item:hover {
+  .flex-image {
     opacity: 0;
-}
-
-.item:hover .flex-title {
+  }
+  .flex-title {
     display: flex;
     flex-wrap: wrap;
     text-decoration: none;
-    text-decoration-color: white;
+    text-decoration-color: $text-color;
     display: none;
+   } 
 }
 
 /* Who dat? */
 
 #whoami {
-    color: white; 
+    color: $text-color; 
     font-size: 18px;
     line-height: 1.4;
     text-align: left;
@@ -326,11 +322,11 @@ main {
     padding-top: 50px;
     padding-bottom: 60px;
     float:left;
+    p {
+    font-size: 19px;
+    }   
 }
 
-#whoami p {
-    font-size: 19px;
-}
 
 #who {
     font-size: 35px;    
@@ -341,7 +337,7 @@ main {
     width: 50%;
     height: 800px;
     float: left;
-    color: white;
+    color: $text-color;
     padding-top: 60px;
     padding-left: 20px;
 }
@@ -385,24 +381,23 @@ article {
 
 /* Posts */
 
+.post-entry, .post-header {
+    color: $text-color; 
+}
+
 .post-content {
     display:flex;
     flex-wrap: wrap;
 }
 
 .post-entry {
-    color: white;
     padding: 44px;
     display:flex;
     flex-wrap: wrap;
 }
 
-.post-header {
-    color: white;   
-}
-
 .post-title {
-    color: white;
+    color: $text-color;
     font-size: 50px;    
 }
 
@@ -428,7 +423,7 @@ p {
     width: 500px;
     height: auto;
     padding: 10px;
-}
+} 
 
 
 /* ______________________Media Query_________________________*/
@@ -527,12 +522,22 @@ p {
     }
 
     .right_side_who {
+        float:right;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
         width: 100vw;
         font-size: 16px;
         padding-left: 0px;
         padding-right: 10px;
         padding-top: 10px;
-        height:100%;
+        height: auto;
+    }
+    
+    .right_side_who p {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
     }
     
     .post-entry p {
@@ -545,10 +550,6 @@ p {
 }
 
 @media screen and (max-width: 380px) {
-    
-    body {
-        font-family:SpaceGrotesk-Regular; 
-    }
     
     /* Header */
     
