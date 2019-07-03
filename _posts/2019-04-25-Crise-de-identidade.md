@@ -14,8 +14,8 @@ Bruno santos, Margarida Silva,
 Paloma Moniz e Ricardo Gonçalves.
 
 ![crise1](/assets/images/crise1.png){:class="img-responsive"}
-![crise1](/assets/images/crise1.png){:class="img-responsive"}
-![crise1](/assets/images/crise1.png){:class="img-responsive"}
-![crise1](/assets/images/crise1.png){:class="img-responsive"}
-![crise1](/assets/images/crise1.png){:class="img-responsive"}
-![crise1](/assets/images/crise1.png){:class="img-responsive"}
+![crise1](/assets/images/crise2.png){:class="img-responsive"}
+![crise1](/assets/images/crise3.png){:class="img-responsive"}
+![crise1](/assets/images/crise4.png){:class="img-responsive"}
+![crise1](/assets/images/crise5.png){:class="img-responsive"}
+![crise1](/assets/images/crise6.png){:class="img-responsive"}

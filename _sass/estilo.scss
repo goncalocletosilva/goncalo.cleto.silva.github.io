@@ -324,9 +324,9 @@ main {
     float:left;
     p {
     font-size: 19px;
+    padding: 0;    
     }   
 }
-
 
 #who {
     font-size: 35px;    
@@ -558,6 +558,7 @@ p {
         margin: 0px;
         padding: 10px;
         text-align: center;
+        font-size: 25px;
     }
 
     #primary {
@@ -576,6 +577,7 @@ p {
     
     #primary ol li {
         margin-right: 12px;
+        font-size: 18px;
     }
     
     /* Intro */
@@ -590,8 +592,8 @@ p {
     }
     
     .intro-text p {
-       padding: 18px;
-       margin: 0;
+       padding: 14px;
+       margin: auto;
     }
     
     #hello {
